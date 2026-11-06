@@ -1,44 +1,29 @@
-STRAVIC WORLD — WEBSITE STARTER
+STRAVIC WORLD — WEBSITE UPDATED
 ================================
 
-ISI FOLDER
-- index.html    halaman website
-- style.css     desain dan tampilan
-- script.js     produk, harga, WhatsApp, Instagram
-- images/       simpan foto produk di sini
+File ini sudah diperbarui dengan banner campaign CONTROLLED CHAOS VOL.1.
+Struktur folder:
+- index.html
+- style.css
+- script.js
+- images/stravic-logo.png
+- images/controlled-chaos-tee.png
+- images/stravic-long-sleeve.png
+- images/stravic-hero-banner.png
 
-CARA MENGUBAH DATA
-1. Buka file script.js menggunakan Notepad atau editor teks.
-2. Cari bagian const STORE.
-3. Ganti whatsapp dengan nomor admin WhatsApp format internasional tanpa tanda +.
-   Contoh format: 62812xxxxxxxx
-4. Ganti instagram dengan alamat Instagram resmi.
-5. Edit nama, harga, ukuran, dan kategori produk.
-6. Untuk menambahkan foto produk:
-   - Simpan foto ke folder images
-   - Isi image dengan contoh: "images/kaos-vol-01.jpg"
-   - Nama file harus sama persis.
+CARA MEMASANG DI GITHUB PAGES
+1. Ekstrak ZIP ini di laptop.
+2. Buka repository GitHub stravic_world.
+3. Klik Add file > Upload files.
+4. Buka folder hasil ekstrak, lalu pilih SEMUA ISI folder (index.html, style.css, script.js, README, PETUNJUK-FOTO, dan folder images).
+5. Seret file dan folder tersebut ke halaman Upload files GitHub.
+6. Tunggu unggahan selesai, isi pesan commit misalnya: Update STRAVIC homepage banner.
+7. Klik Commit changes.
+8. Tunggu GitHub Pages memperbarui website, lalu refresh halaman.
 
-CARA CEK DI KOMPUTER
-1. Ekstrak ZIP.
-2. Buka folder stravic-world-website.
-3. Klik dua kali index.html.
-4. Website akan terbuka di browser.
-
-PENTING
-- Ini adalah katalog dan pemesanan melalui WhatsApp, bukan sistem pembayaran otomatis.
-- Harga dan contoh produk di template hanya contoh; ubah sebelum website dipublikasikan.
-- Jangan publikasikan nomor pribadi. Gunakan nomor admin/brand yang memang disiapkan untuk menerima pesanan.
-- Hosting statis bisa gratis. Domain stravicworld.com dibeli terpisah dan perlu diperpanjang sesuai masa registrasi.
-
-PRODUK YANG SUDAH DIMASUKKAN
-- STRAVIC WORLD — LONG SLEEVE (foto: images/stravic-long-sleeve.png)
-- CONTROLLED CHAOS — VOL. 01 (foto: images/controlled-chaos-tee.png)
-
-Harga sementara tampil sebagai "TANYA HARGA" karena harga resmi belum diberikan.
-Edit price di script.js dengan angka rupiah, misalnya 149000.
-
-DATA KATALOG TERBARU
-- STRAVIC WORLD — LONG SLEEVE: Rp175.000
-- CONTROLLED CHAOS — VOL. 01: Rp149.000
-- Ukuran kedua produk: M / L / XL / XXL
+PENTING:
+- Upload isi folder, bukan folder pembungkus stravic_world_updated.
+- Pastikan folder images ikut ter-upload agar logo dan foto produk terbaca.
+- Nomor WhatsApp di script.js masih nomor contoh 6280000000000. Ganti dengan nomor admin resmi sebelum menerima pesanan.
+- Instagram masih diarahkan ke instagram.com/stravicworld; pastikan akun tersebut benar.
+- Harga contoh produk: Long Sleeve Rp175.000 dan Controlled Chaos Rp149.000. Periksa kembali sebelum dipublikasikan.
