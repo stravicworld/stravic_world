@@ -12,7 +12,7 @@ const STORE = {
       category: "LONG SLEEVE / GRAPHIC",
       price: 175000,
       sizes: "M / L / XL / XXL",
-      image: "images/stravic-long-sleeve.png",
+      image: "stravic-long-sleeve.png",
       label: "NEW DROP"
     },
     {
@@ -20,7 +20,7 @@ const STORE = {
       category: "GRAPHIC T-SHIRT",
       price: 149000,
       sizes: "M / L / XL / XXL",
-      image: "images/controlled-chaos-tee.png",
+      image: "controlled-chaos-tee.png",
       label: "FEATURED"
     }
   ]
