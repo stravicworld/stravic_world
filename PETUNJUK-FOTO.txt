@@ -1,0 +1,1 @@
+Letakkan foto produk STRAVIC di folder ini, lalu atur nama file-nya di script.js.
