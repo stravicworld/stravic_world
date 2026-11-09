@@ -47,3 +47,17 @@ footer{padding:26px 6vw;display:flex;align-items:center;justify-content:space-be
 .section{padding:75px 6vw}.section-heading{display:block}.section-heading h2{font-size:clamp(47px,11vw,68px)}.section-note{margin-top:22px}.catalog-toolbar{font-size:7px}.product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 11px}.product-info{display:block}.product-info h3{font-size:11px;line-height:1.4}.product-price{display:block;margin-top:8px}.product-tag{top:8px;left:8px;font-size:7px;padding:6px}.product-number{top:9px;right:8px}
 .lookbook-section{padding:75px 6vw;display:block}.lookbook-images{margin-top:32px}.lookbook-images img:nth-child(2){transform:translateY(18px)}.manifesto{padding:78px 6vw}.manifesto h2{font-size:clamp(49px,11vw,78px)}.manifesto-bottom{display:block;margin-top:32px}.manifesto-bottom span{display:block;text-align:left;margin-top:24px}.contact-section{padding:78px 6vw;display:block}.contact-copy{padding-top:32px}
 footer{padding:24px 6vw;gap:15px;flex-wrap:wrap}footer p{order:3;width:100%;margin:0}}
+
+/* MODEL SHOWCASE */
+.models-section{padding:108px 8vw;background:#090909;border-top:1px solid #242424}
+.models-heading{margin-bottom:38px}
+.model-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.model-card{min-width:0}
+.model-photo{background:#f1f0ed;aspect-ratio:3/4;overflow:hidden;position:relative}
+.model-photo img{display:block;width:100%;height:100%;object-fit:cover;object-position:center;transition:transform .65s cubic-bezier(.2,.7,.2,1)}
+.model-card:hover .model-photo img{transform:scale(1.035)}
+.model-caption{padding:14px 0 12px;border-bottom:1px solid var(--line)}
+.model-caption span{font-size:8px;font-weight:800;letter-spacing:.16em;color:#999}
+.model-caption h3{font:700 12px "Space Grotesk";letter-spacing:.04em;margin:8px 0 0}
+@media(max-width:850px){.models-section{padding:85px 6vw}.model-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 14px}}
+@media(max-width:620px){.models-section{padding:75px 6vw}.model-grid{gap:20px 10px}.model-caption h3{font-size:10px}.model-caption span{font-size:7px}}
