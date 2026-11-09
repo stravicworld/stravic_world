@@ -1,1 +1,6 @@
-STRAVIC WORLD website update\n\nUpload/replace index.html, style.css, script.js, and the images folder in your GitHub Pages repository.\nIMPORTANT: Before publishing, edit script.js and replace STORE.whatsapp (6280000000000) with your real WhatsApp number in international format.\nInstagram is currently set to https://instagram.com/stravicworld.\nKnown prices retained from the supplied script: Controlled Chaos Rp149.000; Long Sleeve Rp175.000. Other prices are set to TANYA HARGA because no price was supplied.\n
+STRAVIC WORLD — LUXURY DARK WEBSITE UPDATE
+
+Upload index.html, style.css, script.js, and the complete images folder to your GitHub Pages repository.
+WhatsApp is configured as 628212288467. Instagram is configured as @stravicworld.
+Prices retained from the supplied project: Controlled Chaos Rp149.000 and Long Sleeve Rp175.000. Other products show TANYA HARGA because their prices were not supplied.
+Keep the folder structure unchanged so images load correctly.
